@@ -1,0 +1,22 @@
+{
+  "name": "kastanje-example-passport-http",
+  "version": "0.0.0",
+  "description": "a kastanje webserver that uses passport-http",
+  "author": "dan entous",
+  "license": "MIT",
+  "main": "src",
+  "scripts": {
+    "eslint": "eslint .",
+    "start": "nodemon src"
+  },
+  "dependencies": {
+    "kastanje-server-001": "git+https://github.com/kastanje/server-001.git",
+    "passport": "0.4.0",
+    "passport-http": "0.3.0"
+  },
+  "devDependencies": {
+    "eslint": "4.7.2",
+    "eslint-config-dan-nl": "git+https://github.com/dan-nl/eslint-config-dan-nl",
+    "nodemon": "1.12.1"
+  }
+}
